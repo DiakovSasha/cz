@@ -18,3 +18,21 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+.game {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: teal;
+}
+.block {
+  width: 100px;
+  height: 100px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+}
